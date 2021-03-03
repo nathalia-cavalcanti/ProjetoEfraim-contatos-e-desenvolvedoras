@@ -1,0 +1,404 @@
+/**
+* Template Name: Medilab - v2.0.0
+* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #e03a3c;
+}
+
+a:hover {
+  color: #e76668;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.fw-bold {
+	font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 50vh;
+  background: url("../img/novo-contato3-bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h1 {
+  margin: 0;
+	max-width: 1140px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFB703;
+}
+
+
+ h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+
+@media (max-width: 760px) {
+  section div form .coluna-esquerda, section div form .coluna-direita{
+    padding: 5px!important;
+  }
+
+}
+/* 
+body div.jumbotron-with-background.jumbotron-fluid{
+  background-image: url("../img/novo-contato3-bg.jpg");
+ /* -webkit-filter: grayscale(70%);
+     -moz-filter: grayscale(80%);
+       -o-filter: grayscale(80%);
+      -ms-filter: grayscale(80%);
+          filter: grayscale(80%); 
+  opacity: 60%;*/
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 12em;
+} */ 
+
+/*
+@media (min-width: 1024px) {
+  div.jumbotron-with-background.jumbotron-fluid{
+    height: 55vh;
+  }
+}*/
+
+.text-white {
+  text-shadow: #000 2px 3px 2px !important;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+section {
+  padding: 40px 0 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f1f7fd;
+}
+
+/* .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}*/
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  /* position: relative;
+  color: #2c4964; */
+}
+
+/* .section-title p {
+  margin-bottom: 0;
+} */
+
+
+/* bloco do título  fale conosco */
+.container-fluid .section-title{
+  /*margin-left: 45px;*/
+  text-align: left;
+  padding-bottom: 0;
+}
+.container-fluid .section-title h2{
+  color: #77CC66; 
+  padding-bottom: 0;
+}
+.container-fluid .section-title p{
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+
+	#hero h1 {
+  font-size: 2.25em;
+  
+}
+
+.section-title h2 {
+	font-size: 1.75em;
+}
+
+.localizacao {
+	margin-top: -1em;
+}
+
+	p { 
+		font-size:0.75em;
+	}
+
+	.col-form-label {
+    font-size: 0.75em;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea, .form-control {
+    font-size: 0.7em !important;
+}
+
+#footer .footer-top .row p, #footer .footer-top .row p {
+  font-size: 14px ;
+}
+
+
+}
+
+
+/* MAPA EFRAIM */
+
+.div-mapa-efraim {
+  text-align: center;
+  /*margin: 60px 60px 100px 60px;*/
+  width: 100%;
+  padding: 20px 15px 50px 15px;
+}
+
+.mapa-efraim {
+box-shadow: 2px 2px 2px 0 grey;
+border: 1px solid #77CC66; 
+width: 100%; 
+height: 400px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+ .coluna-esquerda {
+  padding-right: 45px!important;
+} 
+
+.coluna-direita {
+  padding-right: 0;
+  padding-left: 45px!important;
+}
+
+.formulario-estilo {
+  background-color: #F3F1F4;
+  border: 1px solid #77CC66;
+  border-radius: .25rem;
+}
+
+
+
+.formulario-estilo:focus {
+  background-color: #F3F1F4;
+  border: 1px solid #77CC66;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.botao-enviar-mensagem {
+  background: #77CC66;
+  color: white;
+}
+
+.botao-enviar-mensagem:hover {
+  transition: 1s all;
+  background: rgb(75, 155, 75);
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  transition: 1s all;
+  background: rgb(75, 155, 75);
+}
+
+
+.contact .php-email-form button[type="submit"] {
+  background:#77CC66;
+  border: 0;
+  /*padding: 10px 30px 30px;*/
+  color: #fff;
+  transition: 0.4s;
+  margin-top:54px;
+  } 
+
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #1977cc;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #d6e9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #2c4964;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #4b7dab;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #1977cc;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 60px;
+}
+
+/*
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}*/
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0.25rem;
+  /*box-shadow: none;*/
+  font-size: 14px;
+  height: 240px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+/*
+.contact .php-email-form button[type="submit"] {
+  background: #1977cc;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+} 
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #1c84e3;
+}*/
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
